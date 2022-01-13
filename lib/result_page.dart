@@ -29,7 +29,7 @@ class ResultsPage extends StatelessWidget {
                 'Your Result',
                 style: TextStyle(fontSize: 50.0, fontWeight: FontWeight.bold),
               ),
-              padding: EdgeInsets.all(15.0),
+              padding: const EdgeInsets.all(15.0),
               alignment: Alignment.bottomLeft,
             ),
           ),
@@ -43,7 +43,7 @@ class ResultsPage extends StatelessWidget {
                 children: [
                   Text(
                     resultText.toUpperCase(),
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Color(0xff24d876),
                       fontSize: 22.0,
                       fontWeight: FontWeight.bold,
@@ -51,14 +51,14 @@ class ResultsPage extends StatelessWidget {
                   ),
                   Text(
                     bmiResult,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 100.0,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
                     interpretation,
-                    style: TextStyle(fontSize: 22.0),
+                    style: const TextStyle(fontSize: 22.0),
                     textAlign: TextAlign.center,
                   ),
                 ],
